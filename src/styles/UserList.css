@@ -1,0 +1,76 @@
+.user-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-list-products{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.form-add{
+    margin: 40px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.add-product {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    width: 400px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.add-product h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.add-product input,
+.add-product textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.add-product textarea {
+    resize: vertical;
+    min-height: 60px;
+}
+
+.btn-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    margin-top: 15px;
+}
+
+.btn-group button {
+    width: 70px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+.green-btn{
+    background-color: #4CAF50;
+}
+
+.red-btn{
+    background-color: red;
+}
+
+.error-text{
+    color: red;
+    text-align: center;
+    font-size: 15px;
+}
