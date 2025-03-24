@@ -28,7 +28,6 @@ function Products() {
             value={search}
             onChange={(e) => setSearch(e.target.value)}
           />
-          <button className="search-btn">🔍</button>
         </div>
       </div>
 

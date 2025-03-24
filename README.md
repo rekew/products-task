@@ -6,6 +6,8 @@
 
 > Если не показывает продукты, то нужен vpn. Просто включите vpn и перезайдите в сайт.
 
+> деплой : https://magnificent-quokka-63d782.netlify.app/#/products
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
